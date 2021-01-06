@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		472AB55425A297C6002122C6 /* OmenGridAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472AB55325A297C6002122C6 /* OmenGridAnimationApp.swift */; };
-		472AB55625A297C6002122C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472AB55525A297C6002122C6 /* ContentView.swift */; };
+		472AB55625A297C6002122C6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472AB55525A297C6002122C6 /* MainView.swift */; };
 		472AB55825A297C6002122C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472AB55725A297C6002122C6 /* Assets.xcassets */; };
 		472AB55B25A297C6002122C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472AB55A25A297C6002122C6 /* Preview Assets.xcassets */; };
+		479D4F9D25A3987C00A5C4EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D4F9C25A3987C00A5C4EA /* CardView.swift */; };
+		479D4FA025A3E21100A5C4EA /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D4F9F25A3E21100A5C4EA /* CardGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		472AB55025A297C6002122C6 /* OmenGridAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmenGridAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472AB55325A297C6002122C6 /* OmenGridAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmenGridAnimationApp.swift; sourceTree = "<group>"; };
-		472AB55525A297C6002122C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		472AB55525A297C6002122C6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		472AB55725A297C6002122C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472AB55A25A297C6002122C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		472AB55C25A297C6002122C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479D4F9C25A3987C00A5C4EA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		479D4F9F25A3E21100A5C4EA /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				472AB55325A297C6002122C6 /* OmenGridAnimationApp.swift */,
-				472AB55525A297C6002122C6 /* ContentView.swift */,
+				472AB55525A297C6002122C6 /* MainView.swift */,
+				479D4F9C25A3987C00A5C4EA /* CardView.swift */,
+				479D4F9F25A3E21100A5C4EA /* CardGridView.swift */,
 				472AB55725A297C6002122C6 /* Assets.xcassets */,
 				472AB55C25A297C6002122C6 /* Info.plist */,
 				472AB55925A297C6002122C6 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472AB55625A297C6002122C6 /* ContentView.swift in Sources */,
+				479D4FA025A3E21100A5C4EA /* CardGridView.swift in Sources */,
+				472AB55625A297C6002122C6 /* MainView.swift in Sources */,
+				479D4F9D25A3987C00A5C4EA /* CardView.swift in Sources */,
 				472AB55425A297C6002122C6 /* OmenGridAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
